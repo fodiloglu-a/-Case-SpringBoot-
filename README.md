@@ -1,11 +1,21 @@
-# EnocaCase
-This Repository For Enoca Case
+# Enoca
+  This repository for Enoca case
+## İçindekiler
+ 
+* [Teknolojiler](#teknolojiler)
+* [Kurulum](#kurulum)
 
-*This repo use SpringBoot 
-*Database-mySql
+ 
 
+	
+## Teknolojiler
+Proje ile oluşturulur:
+* java.version=>>>17.0
+* modelmapper=>>3.1
+* lombok
+* mysql
+	
+## Kurmak
+To run this project, install and run it locally with Xamp, using SpringBoot:
 
----------------------------------
-*Firma and Personel  =>Two  Entity
-*Been =>>ModelMapper
-
+ 
