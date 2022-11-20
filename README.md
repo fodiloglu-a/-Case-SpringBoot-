@@ -4,6 +4,7 @@
  
 * [Teknolojiler](#teknolojiler)
 * [Kurulum](#kurulum)
+* [Çalışma Mantığı](#ÇalışmaMantığı)
 
  
 
@@ -18,4 +19,10 @@ Proje ile oluşturulur:
 ## Kurmak
 To run this project, install and run it locally with Xamp, using SpringBoot:
 
- 
+
+## ÇalışmaMantığı
+
+Bu projenin çalışma mantığının anlaşılması için aşşağıdaki görselin incelenmesi gerekmektadir.
+Aşşağıdaki görselden ayrı olarak da Spring Boot projesinin ayağa kalkması ve belirli komutaların çalışması için de 
+dependencylere ihtiyaçvardır bunları incelemek için pom.XML dosyasına bakabilirsiniz.
+
