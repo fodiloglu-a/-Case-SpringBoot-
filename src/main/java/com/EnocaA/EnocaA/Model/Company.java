@@ -18,7 +18,11 @@ public class Company {
             sequenceName = "Company_Id",
             allocationSize = 0)
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "Company_Id")
+<<<<<<< HEAD
 //entitysdasdas
+=======
+
+>>>>>>> origin/main
     private  Long id;
     private String companyName;
     private String companyEmail;
