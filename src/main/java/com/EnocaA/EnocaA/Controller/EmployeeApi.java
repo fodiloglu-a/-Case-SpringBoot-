@@ -42,6 +42,11 @@ public class EmployeeApi {
     public ResponseEntity<String> updateEmployeeByName(@RequestBody  EmployeeUpdate employeeUpdate){
         return ResponseEntity.ok().body(this.employeeManager.updateEmployeeByName(employeeUpdate));
     }
+    @GetMapping("/finByCompanyId")////localhost:8081/employee/finByCompanyId
+
+    public ResponseEntity<List<EmployeeResponse>> finByCompanyId(@RequestParam Long id){
+        return ResponseEntity.ok().body(this.employeeManager.findEmployeeByCompany_Id(id));
+    }
 
 
 }

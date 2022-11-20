@@ -89,4 +89,15 @@ public class EmployeeManager implements IEmployeeServices{
         return "Successful Update";
 
     }
+
+    @Override
+    public List<EmployeeResponse> findEmployeeByCompany_Id(Long id) {
+        List<EmployeeResponse>employeeResponseList=new ArrayList<>();
+        List<Employee>employees=this.iEmployeeDao.findEmployeeByCompany_Id(id);
+        for (Employee employee : employees) {
+            EmployeeResponse employeeResponse=this.modelMapper.map(employee,EmployeeResponse.class);
+            employeeResponseList.add(employeeResponse);
+        }
+        return employeeResponseList;
+    }
 }
